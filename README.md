@@ -4,6 +4,8 @@ Full Name: Boris Zugic
 
 Student ID: 101223924
 
+DEMO link: https://youtu.be/4oXAuEr2HeE
+
 ## Usage
 1. Run SpringDemoApplication.java
 2. Test methods using Postman or command line
