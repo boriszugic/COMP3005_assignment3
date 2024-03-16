@@ -6,6 +6,7 @@ import org.springframework.context.annotation.Bean;
 
 import java.util.List;
 
+// Service class for managing student-related business logic.
 @org.springframework.stereotype.Service
 public class StudentService {
 
@@ -33,6 +34,8 @@ public class StudentService {
     public void deleteStudent(Long studentId) {
         studentRepository.deleteById(studentId);
     }
+
+    // Bean for application runner to execute custom actions at startup.
     @Bean
     public ApplicationRunner applicationRunner(StudentRepository studentRepository){
         return args -> {

@@ -5,8 +5,9 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+// REST controller for handling student-related HTTP requests.
 @RestController
-@RequestMapping("/students")
+@RequestMapping("/students") // Maps all requests under '/students' to this controller.
 public class StudentController {
     private final StudentService studentService;
 
